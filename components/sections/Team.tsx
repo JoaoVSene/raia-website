@@ -4,23 +4,38 @@ import Image from "next/image";
 const team = [
   {
     name: "Pedro Augusto Ribeiro Gomes",
-    role: "Chief AI Officer",
+    role: "Fundador & Presidente",
     image: "https://media.licdn.com/dms/image/v2/D4E03AQHzRuyQbeX4lw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718288174193?e=1738195200&v=beta&t=XMxCUWaJOyf7XLKg2WFDdprIV9Tap6XxT0Gff5A-VzE",
   },
   {
-    name: "Outro Nome",
-    role: "Head of Engineering",
-    image: "https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg",
+    name: "Pedro Kenzo Muramatsu ",
+    role: "Cofundador",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQFR5VFZlJcn1g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707251060763?e=1738800000&v=beta&t=OY0ORZj3CKZc-VjxG82E0zp4MeZMOxc-cHNTQTFjjPg",
   },
   {
-    name: "Outro Nome",
-    role: "ML Research Lead",
-    image: "https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg",
+    name: "Pedro Augusto Monteiro Delgado",
+    role: "Diretor de Projetos",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQGOLuJrkBEHWg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710188752172?e=1738800000&v=beta&t=DEapMTUShwArwQaG773_mU496uR59AEx9uqMDoCEBiE",
   },
   {
-    name: "Outro Nome",
-    role: "Solutions Architect",
-    image: "https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg",
+    name: "Luísa Shimabucoro",
+    role: "Diretor de Projetos",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHT_lQbzVtm6Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1704713329933?e=1738800000&v=beta&t=1ySxh9nSzZc-4Ue9hAoFn5jKAstVAaTCrg2L6l2Z77Q",
+  },
+  {
+    name: "Gustavo Sampaio Lima",
+    role: "Diretor de Projetos",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQE0i9G3l4VsEw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1709077635249?e=1738800000&v=beta&t=IP0A7ZopccY7IkJXK9DYaANTu6ZvsNrEYmtyVpOMenU",
+  },
+  {
+    name: "Gabriel Moraes Andreghetti",
+    role: "Diretor de Projetos",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQF9I_28nZpSgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1684849954299?e=1738800000&v=beta&t=EYLfQumty-GVpALGeyHMKQv7LK4tNI2iwUdmalgg3iY",
+  },
+  {
+    name: "João Pedro Alonso Almeida",
+    role: "Diretor de Marketing",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHmoKNHM9nYHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727298079285?e=1738800000&v=beta&t=LDaVCHe8DnAB6x8J9-kaEBWi9IHIE0wqWAMBdE1omWI",
   },
 ];
 
@@ -37,8 +52,7 @@ export function Team() {
             Nossa equipe diversificada de pesquisadores de IA, engenheiros e especialistas do setor trabalha em conjunto para expandir os limites da inteligência artificial.
           </p>
         </div>
-        
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 flex flex-wrap justify-center">
           {team.map((member) => (
             <Card key={member.name} className="bg-card/50 backdrop-blur-sm">
               <CardContent className="pt-6">
