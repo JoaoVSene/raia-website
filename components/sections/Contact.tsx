@@ -24,7 +24,7 @@ export function Contact() {
             Entre em contato com nossa equipe
           </p>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Tem dúvidas sobre nossas soluções de IA? Gostaríamos de ouvir de você e discutir como podemos ajudar a transformar seu negócio.
+            Tem dúvidas sobre nossas soluções de IA? Gostaríamos de ouvir de você e discutir como podemos ajudar a transformar sua ideia em realidade!
           </p>
         </div>
 
