@@ -29,13 +29,13 @@ export function Navbar() {
           <div className="flex lg:flex-1">   
             <Link href="/" className="flex items-center gap-x-2">
               <Image
-                className="h-24 w-24 rounded-full object-cover"
+                className="h-14 w-14 rounded-full object-cover"
                 src={iconImage}
                 alt="ICON"
                 width={96}
                 height={96}
               />
-              <span className="text-2xl font-bold text-secondary-foreground hover:text-primary transition-colors">
+              <span className="text-1xl font-bold text-secondary-foreground hover:text-primary transition-colors">
                 RAIA
               </span>
             </Link>
