@@ -1,5 +1,6 @@
 "use client";
 
+import iconImage from '@/app/images/gruporaia_logo-circle.png';
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -12,10 +13,10 @@ import {
 import { useState } from "react";
 
 const navigation = [
-  { name: "Sobre Nós", href: "#about" },
-  { name: "Missão", href: "#services" },
-  { name: "Time", href: "#team" },
-  { name: "Contato", href: "#contact" },
+//  { name: "Sobre Nós", href: "/about" },
+  { name: "Missão", href: "/features" },
+  { name: "Nosso Time", href: "/team" },
+  { name: "Contato", href: "/contact" },
 ];
 
 export function Navbar() {
@@ -29,7 +30,7 @@ export function Navbar() {
             <Link href="/" className="flex items-center gap-x-2">
               <Image
                 className="h-24 w-24 rounded-full object-cover"
-                src="https://gruporaia.carrd.co/assets/images/image01.jpg?v=8fc00edd"
+                src={iconImage}
                 alt="ICON"
                 width={96}
                 height={96}
