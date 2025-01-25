@@ -4,19 +4,20 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
+import Link from "next/link";
 
 export function Contact() {
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log({ email, message });
-  };
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   // Handle form submission
+  //   console.log({ email, message });
+  // };
 
   return (
-    <div className="relative isolate pt-14">
+    <div className="relative isolate  mb-auto pt-14">
       <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
         <div
           className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-primary to-blue-600 opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -36,9 +37,18 @@ export function Contact() {
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
               Tem dúvidas sobre nossas soluções de IA? Gostaríamos de ouvir de você e discutir como podemos ajudar a transformar sua ideia em realidade!
             </p>
+            <div className="mt-6 lg:text-center">
+              <Link href="https://www.instagram.com/grupo.raia" target="_blank">
+                <Button>
+                  Junte-se a Nós
+                </Button>
+              </Link>
+            </div>
           </div>
 
-          <div className="mx-auto mt-16 max-w-xl">
+          
+
+          {/* <div className="mx-auto mt-16 max-w-xl">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium leading-6">
@@ -78,7 +88,7 @@ export function Contact() {
                 </Button>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -23,7 +23,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-secondary backdrop-blur-sm border-b">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-0 backdrop-blur-sm">
       <nav className="mx-auto max-w-7xl px-6 lg:px-8" aria-label="Global">
         <div className="flex items-center justify-between py-6">
           <div className="flex lg:flex-1">   
@@ -35,7 +35,7 @@ export function Navbar() {
                 width={96}
                 height={96}
               />
-              <span className="text-1xl font-bold text-secondary-foreground hover:text-primary transition-colors">
+              <span className="text-1xl font-bold text-secondary-foreground hover:text-primary transition-colors default-text-shadow">
                 RAIA
               </span>
             </Link>
@@ -46,7 +46,7 @@ export function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold leading-6 text-secondary-foreground hover:text-primary transition-colors"
+                className="text-sm font-semibold leading-6 text-secondary-foreground hover:text-primary transition-colors default-text-shadow"
               >
                 {item.name}
               </Link>

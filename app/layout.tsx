@@ -1,6 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 //import { faB, faCheckSquare, faCoffee, faDatabase, faHouseLaptop, faS, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
 //library.add(faB, faS, faHouseLaptop, faCheckSquare, faCoffee, faDatabase, faWindowMaximize)
 
@@ -26,7 +28,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        
+        {/* This is for not break the <footer> */}
+        <div className="relative flex flex-col min-h-screen"> 
+          
+          <div className='grow bg-gradient-to-t from-secondary via-40% via-background'>
+            <Navbar />
+            
+            {children}
+          </div>
+          
+          
+
+          <Footer />
+
+        </div>
+        
+      </body>
     </html>
   );
 }
