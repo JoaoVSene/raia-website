@@ -24,13 +24,13 @@ export function Footer() {
 
   return (
     <footer className="relative w-full bg-secondary pt-4">
-      <div className="mx-auto min-mx-8 w-full max-w-screen-xl lg:py-4">
-        <div className="flex justify-between">
+      <div className="mx-auto min-mx-8 w-full max-w-screen-xl px-4 lg:py-4">
+        <div className="md:flex md:justify-between">
           {/* Icon */}
           <div className="mb-6 md:mb-0"> 
             <Link href="/" className="flex items-center">
               <Image
-                className=" inline-block align-middle rounded-full object-cover"
+                className="inline-block align-middle rounded-full object-cover"
                 src={iconImage}
                 alt="ICON"
                 width={96}
@@ -78,7 +78,7 @@ export function Footer() {
               <h1 className="text-secondary-foreground font-bold">Contate-nos</h1>
               <div className="mt-6">
                 <h1 className="text-sm text-secondary-foreground">Email</h1>
-                <h1 className="text-base text-secondary-foreground font-bold">comunicacao.raia@gmail.com</h1>
+                <h1 className="text-base text-secondary-foreground font-bold break-all">comunicacao.raia@gmail.com</h1>
               </div>
             </div>
           </div>
