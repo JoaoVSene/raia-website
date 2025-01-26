@@ -26,9 +26,8 @@ export function Footer() {
               </span>
             </Link>
           </div>
-          <div className="grid-cols-2 sm:grid-cols-3 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* 1st Column */}
-            <div key="1" className="space-y-5">
+          <div key="Columns" className="grid-cols-2 sm:grid-cols-3 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div key="1st Column" className="space-y-5">
               <h1 className="text-secondary-foreground font-bold">Geral</h1>
               {navigation.map((item) => (
                 <p>
@@ -42,8 +41,7 @@ export function Footer() {
                 </p>
               ))}
             </div>
-            {/* 2nd Column */}
-            <div key="2" className="space-y-5">
+            <div key="2nd Column" className="space-y-5">
               <h1 className="text-secondary-foreground font-bold">Projetos</h1>
               {projects.map((item) => (
                 <p>
@@ -58,7 +56,7 @@ export function Footer() {
               ))}
             </div>
             {/* 3rd Column */}
-            <div key="3" className="space-y-5">
+            <div key="3rd Column" className="space-y-5">
               <h1 className="text-secondary-foreground font-bold">Contate-nos</h1>
               <div className="mt-6">
                 <h1 className="text-sm text-secondary-foreground">Email:</h1>
