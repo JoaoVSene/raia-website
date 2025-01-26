@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
-import { TopCloud,BottomCloud } from "@/components/animations/Clouds";
+import { TopCloud } from "@/components/animations/Clouds";
 
 const team = [
   {

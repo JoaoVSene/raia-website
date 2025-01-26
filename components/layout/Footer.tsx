@@ -11,7 +11,6 @@ export function Footer() {
     <footer className="relative w-full bg-secondary pt-4">
       <div className="mx-auto min-mx-8 w-full max-w-screen-xl px-4 lg:py-4">
         <div className="md:flex md:justify-between">
-          {/* Icon */}
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
               <Image

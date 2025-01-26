@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-import { TopCloud,BottomCloud } from "@/components/animations/Clouds";
+import { TopCloud } from "@/components/animations/Clouds";
 
 export function Hero() {
   return (
@@ -22,7 +21,6 @@ export function Hero() {
               <Link href="https://www.instagram.com/grupo.raia" target="_blank">
                 <Button size="lg">
                   Junte-se a Nós
-                  {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
                 </Button>
               </Link>
               <Link href="https://www.linkedin.com/company/gruporaia" target="_blank">
@@ -34,8 +32,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-
-      {/* <BottomCloud/> */}
     </div>
   );
 }

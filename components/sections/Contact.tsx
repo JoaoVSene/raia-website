@@ -3,18 +3,9 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { socialMedia } from "@/app/utils";
-import { TopCloud,BottomCloud } from "@/components/animations/Clouds";
+import { TopCloud } from "@/components/animations/Clouds";
 
 export function Contact() {
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
-
-  // const handleSubmit = (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   // Handle form submission
-  //   console.log({ email, message });
-  // };
-
   return (
     <div className="relative isolate pt-14">
       <TopCloud/>
@@ -51,47 +42,6 @@ export function Contact() {
               ))}
             </div>
           </div>
-          {/* <div className="mx-auto mt-16 max-w-xl">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium leading-6">
-                  Endereço de email
-                </label>
-                <div className="mt-2">
-                  <Input
-                    type="email"
-                    id="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                    placeholder="Insira seu e-mail"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium leading-6">
-                  Mensagem
-                </label>
-                <div className="mt-2">
-                  <Textarea
-                    id="message"
-                    rows={4}
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    required
-                    placeholder="Como podemos ajudar você?"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <Button type="submit" className="w-full">
-                  Enviar mensagem
-                </Button>
-              </div>
-            </form>
-          </div> */}
         </div>
       </div>
     </div>

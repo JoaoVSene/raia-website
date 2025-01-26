@@ -1,5 +1,5 @@
 import { Lightbulb, Calendar, BookOpenText, Brain, Trophy } from "lucide-react";
-import { TopCloud,BottomCloud } from "@/components/animations/Clouds";
+import { TopCloud } from "@/components/animations/Clouds";
 
 const features = [
   {
