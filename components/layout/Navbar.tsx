@@ -11,13 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { useState } from "react";
-
-const navigation = [
-//  { name: "Sobre Nós", href: "/about" },
-  { name: "Missão", href: "/features" },
-  { name: "Nosso Time", href: "/team" },
-  { name: "Contato", href: "/contact" },
-];
+import { navigation } from "@/app/utils";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

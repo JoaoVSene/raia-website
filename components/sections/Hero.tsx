@@ -22,7 +22,7 @@ export function Hero() {
               <Link href="https://www.instagram.com/grupo.raia" target="_blank">
                 <Button size="lg">
                   Junte-se a Nós
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                  {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
                 </Button>
               </Link>
               <Link href="https://www.linkedin.com/company/gruporaia" target="_blank">
