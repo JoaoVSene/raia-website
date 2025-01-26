@@ -29,8 +29,8 @@ export function Footer() {
           <div key="Columns" className="grid-cols-2 sm:grid-cols-3 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div key="1st Column" className="space-y-5">
               <h1 className="text-secondary-foreground font-bold">Geral</h1>
-              {navigation.map((item) => (
-                <p>
+              {navigation.map((item,index) => (
+                <p key={index}>
                   <Link
                     key={item.name}
                     href={item.href}
@@ -43,8 +43,8 @@ export function Footer() {
             </div>
             <div key="2nd Column" className="space-y-5">
               <h1 className="text-secondary-foreground font-bold">Projetos</h1>
-              {projects.map((item) => (
-                <p>
+              {projects.map((item,index) => (
+                <p key={index}>
                   <Link
                     key={item.name}
                     href={item.href}
