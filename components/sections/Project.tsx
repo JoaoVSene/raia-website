@@ -25,7 +25,7 @@ export function Project({ project, images }: ProjectsProps) {
               {project?.description}
             </p>
           </div>
-          <div className="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
+          <div className="grid min-h-[140px] w-full place-items-center rounded-lg p-6 overflow-visible">
             <CarouselDefault images={images} />
           </div>
         </div>
