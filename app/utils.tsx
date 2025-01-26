@@ -1,4 +1,5 @@
-import { FaInstagram, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { Newspaper,NotebookPen,Cctv, LucideProps } from "lucide-react";
 import { ForwardRefExoticComponent, RefAttributes } from "react";
 
@@ -17,9 +18,9 @@ export const socialMedia = [
     icon: FaInstagram,
   },
   {
-    name: "Twitter",
+    name: "X",
     link: "https://www.x.com/gruporaia",
-    icon: FaTwitter,
+    icon: FaXTwitter,
   },
   {
     name: "LinkedIn",
