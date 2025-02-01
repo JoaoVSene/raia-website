@@ -1,6 +1,6 @@
 "use client";
 
-import iconImage from '@/app/images/gruporaia_logo-circle.png';
+import iconImage from '@/app/images/gruporaia_logo-branco.svg';
 import Link from "next/link";
 import Image from "next/image";
 import { navigation, projects, socialMedia } from "@/app/utils";
@@ -20,7 +20,7 @@ export function Footer() {
                 width={96}
                 height={96}
               />
-              <span className="text-1xl font-bold text-secondary-foreground hover:text-primary transition-colors">
+              <span className="text-2xl logo-font text-secondary-foreground hover:text-primary transition-colors">
                 RAIA
               </span>
             </Link>

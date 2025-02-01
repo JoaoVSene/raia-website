@@ -1,6 +1,6 @@
 "use client";
 
-import iconImage from '@/app/images/gruporaia_logo-circle.png';
+import iconImage from '@/app/images/gruporaia_logo-branco.svg';
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -17,7 +17,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-0 backdrop-blur-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 lg:bg-secondary bg-secondary/90 backdrop-blur-sm">
       <nav className="mx-auto max-w-7xl px-6 lg:px-8" aria-label="Global">
         <div className="flex items-center justify-between py-6">
           <div className="flex lg:flex-1">   
@@ -29,7 +29,7 @@ export function Navbar() {
                 width={96}
                 height={96}
               />
-              <span className="text-1xl font-bold text-secondary-foreground hover:text-primary transition-colors default-text-shadow">
+              <span className="text-1xl logo-font text-secondary-foreground hover:text-primary transition-colors">
                 RAIA
               </span>
             </Link>
@@ -40,7 +40,7 @@ export function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold leading-6 text-secondary-foreground hover:text-primary transition-colors default-text-shadow"
+                className="text-1xl font-bold leading-6 text-secondary-foreground hover:text-primary transition-colors"
               >
                 {item.name}
               </Link>
@@ -50,8 +50,8 @@ export function Navbar() {
           <div className="flex lg:hidden">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
+                <Button className="hover:bg-secondary" variant="ghost" size="icon">
+                  <Menu className="h-8 w-8 text-secondary-foreground" />
                 </Button>
               </SheetTrigger>
               <SheetContent>

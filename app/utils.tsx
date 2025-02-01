@@ -5,10 +5,10 @@ import { ForwardRefExoticComponent, RefAttributes } from "react";
 
 export const navigation = [
   //  { name: "Sobre Nós", href: "/about" },
-  { name: "Missão", href: "/features" },
+  { name: "Sobre Nós", href: "/about" },
   { name: "Nosso Time", href: "/team" },
-  { name: "Contato", href: "/contact" },
   { name: "Projetos", href: "/projects" },
+  { name: "Contato", href: "/contact" },
 ];
 
 export const socialMedia = [

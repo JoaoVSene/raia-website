@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'AICON-semibold'; 
+  src: url("../font/AICON-SemiBold.otf") format("truetype");
+} 
+
+.logo-font {
+  font-family: aicon-semibold;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -103,7 +112,7 @@
 }
 
 .default-text-shadow {
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 5px white;
 }
 
 .water {
@@ -147,5 +156,47 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+.details {
+  perspective: 800px; /* Apply perspective to the parent container */
+  perspective-origin: center; /* Ensure perspective remains stable */
+}
+
+.loader {
+  transform-style: preserve-3d;
+  position: relative;
+  width: 50rem;
+  height: 50rem;
+  transform: rotateX(60deg);
+}
+.loader span {
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 2px 0 #ccc, inset 0 2px #ccc;
+  animation: animate 10s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+.loader span {
+  top: calc(var(--i) * 15px);
+  left: calc(var(--i) * 15px);
+  bottom: calc(var(--i) * 15px);
+  right: calc(var(--i) * 15px);
+  animation-delay: calc(var(--i) * -0.1s);
+}
+@keyframes animate {
+  0% {
+    transform: translateZ(-100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateZ(100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateZ(-100px);
+    opacity: 0;
   }
 }
