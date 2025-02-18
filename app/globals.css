@@ -159,11 +159,11 @@
   }
 }
 
-.details {
-  perspective: 800px; /* Apply perspective to the parent container */
-  perspective-origin: center; /* Ensure perspective remains stable */
+/*
+ .details {
+  perspective: 800px; // Apply perspective to the parent container
+  perspective-origin: center; // Ensure perspective remains stable
 }
-
 .loader {
   transform-style: preserve-3d;
   position: relative;
@@ -200,3 +200,4 @@
     opacity: 0;
   }
 }
+*/

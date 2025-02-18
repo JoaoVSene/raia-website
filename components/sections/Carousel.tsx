@@ -11,13 +11,13 @@ export function CarouselDefault({ images }: CarouselDefaultProps) {
   }
   
   return (
-    <Carousel className="rounded-xl">
+    <Carousel className="rounded-xl w-full max-w-[800px] h-[500px]">
       {images.map((item,index) => (
         <img
         key={index}
-        src={item.href}
+        src={item.href.src}
         alt={item.alt}
-        className="h-full w-full object-cover"
+        className="absolute top-0 left-0 w-full h-full object-cover"
         />
       ))}
     </Carousel>

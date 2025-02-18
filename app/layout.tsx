@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="relative flex flex-col min-h-screen">
           {/* This is for not break the <footer> */}
-          <div className="grow bg-gradient-to-t from-secondary via-40% via-background">
+          <div className="grow bg-gradient-to-t from-secondary via-40% via-background pb-24 sm:pb-32">
           {/* <div className="grow bg-primary-foreground bg-[radial-gradient(#e5e7eb_2px,transparent_1px)] [background-size:16px_16px]"> */}
             <Navbar />
             {children}
