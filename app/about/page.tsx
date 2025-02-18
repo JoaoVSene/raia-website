@@ -1,9 +1,9 @@
-import { Features } from "@/components/sections/Features";
+import { About } from "@/components/sections/About";
 
-export default function FeaturesPage() {
+export default function AboutPage() {
   return (
     <main>
-      <Features />
+      <About />
     </main>
   );
 }

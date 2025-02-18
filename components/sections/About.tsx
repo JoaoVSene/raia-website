@@ -29,7 +29,7 @@ const features = [
   },
 ];
 
-export function Features() {
+export function About() {
   return (
     <div className="relative isolate pt-14">
       <TopCloud/>
