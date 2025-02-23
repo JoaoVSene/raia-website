@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { socialMedia } from "@/app/utils";
 import { TopCloud } from "@/components/animations/Clouds";
+import { pselLink } from "@/app/utils"
 
 export function Contact() {
   return (
@@ -20,7 +21,7 @@ export function Contact() {
               Tem dúvidas sobre nossas soluções de IA? Gostaríamos de ouvir de você e discutir como podemos ajudar a transformar sua ideia em realidade!
             </p>
             <div className="my-6 lg:text-center">
-              <Link href="https://www.instagram.com/grupo.raia" target="_blank">
+              <Link href={pselLink} target="_blank">
                 <Button>
                   Junte-se a Nós
                 </Button>

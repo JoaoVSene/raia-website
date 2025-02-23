@@ -42,7 +42,7 @@ export const directors: MemberItem[] = [
     name: "Luísa Shimabucoro",
     role: "Diretora de Projetos",
     image: LuisaProfile,
-    description: "Computer Science undergrad and Machine Learning enthusiast looking forward to explore the world through data",
+    description: "Tem interesse nas áreas de ML, com ênfase em NLP e Visão. Aluna de Ciências de Computação da USP, já tendo passado pela U. de Edimburgo e Cohere For AI como pesquisadora",
     linkedin: "https://www.linkedin.com/in/lushimabucoro/",
   },
   {
@@ -124,5 +124,50 @@ export const chatDiarioOficialTeam: MemberItem[] = [
     image: MonteiroProfile,
     description: "Graduando em Ciências de Computação pelo ICMC-USP, em intercâmbio com a Universidade de Berna, na Suíça. Possui interesse em explorar a aplicação de ferramentas de inteligência artificial em áreas de interesse público, como saúde e educação",
     linkedin: "https://www.linkedin.com/in/pedroamdelgado",
+  },
+];
+
+// BEMU Team Profile Pictures
+
+import AndreMitriProfile from "@/app/images/team/bemu/AndreMitri.jpg";
+import GabrielMerlinProfile from "@/app/images/team/bemu/GabrielMerlin.png";
+import LeticiaMarcheziProfile from "@/app/images/team/bemu/LeticiaMarchezi.jpg";
+import OtavioColettiProfile from "@/app/images/team/bemu/OtavioColetti.jpg";
+
+export const bemuTeam: MemberItem[] = [
+  {
+    name: "Luísa Shimabucoro",
+    role: "Participou como gerente e contribuiu para a elaboração da estratégia híbrida de processamento de dados e a coleta de questões da UNESP",
+    image: LuisaProfile,
+    description: "Tem interesse nas áreas de ML, com ênfase em NLP e Visão. Aluna de Ciências de Computação da USP, já tendo passado pela U. de Edimburgo e Cohere For AI como pesquisadora",
+    linkedin: "https://www.linkedin.com/in/lushimabucoro/",
+  },
+  {
+    name: "Gabriel Merlin",
+    role: "Participou da incorporação inicial do Gemini ao código e auxiliou a criação da estratégia híbrida, além de coletar as questões das provas da FUVEST",
+    image: GabrielMerlinProfile,
+    description: "Seus interesses se encaixam na área de ML/DL, especialmente envolvendo Séries Temporais",
+    linkedin: "https://www.linkedin.com/in/gabrielcmerlin/",
+  },
+  {
+    name: "André Mitri",
+    role: "Responsável pelo web scraping e pela abordagem híbrida para extração de dados da Comvest e Enem",
+    image: AndreMitriProfile,
+    description: "Mestrando no ICMC (USP São Carlos)  em Séries Temporais e Aprendizado de Representação.  Foi visitante de um laboratório na Universidade da Alta Alsácia, na França",
+    linkedin: "https://www.linkedin.com/in/andre-de-mitri/",
+  },
+  {
+    name: "Leticia Marchezi",
+    role: "Trabalhou na extração de textos utilizando modelos multimodais e na extração híbrida das provas da Comvest e ENEM",
+    image: LeticiaMarcheziProfile,
+    description: "Estudante de Ciência da Computação na Universidade Federal de São Carlos. Já realizou uma pesquisa em PLN com a Fapesp e um estágio na U. de Sheffield",
+    linkedin: "https://www.linkedin.com/in/letmarchezi/",
+  },
+  {
+    name: "Otávio F. Coletti",
+    role: "Desenvolveu a extração das questões utilizando bibliotecas de parsing de .pdf",
+    image: OtavioColettiProfile,
+    description: "Atualmente aluno do curso Ciências de Computação (ICMC/USP) e bolsista em um projeto focado na criação de um sistema de monitoramento de rios para a predição de enchentes utilizando Inteligência Artificial e IoT",
+    linkedin: "https://www.linkedin.com/in/ot%C3%A1viocoletti-012/",
   },
 ];

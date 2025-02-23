@@ -13,6 +13,8 @@ import {
 import { useState } from "react";
 import { navigation } from "@/app/utils";
 
+import { pselLink } from "@/app/utils";
+
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -74,7 +76,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href="https://www.instagram.com/grupo.raia" target="_blank">
+            <Link href={pselLink} target="_blank">
               <Button>
                 Junte-se a Nós
               </Button>

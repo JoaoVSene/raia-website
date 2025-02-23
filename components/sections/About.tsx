@@ -1,31 +1,31 @@
-import { Lightbulb, Calendar, BookOpenText, Brain, Trophy } from "lucide-react";
+import { Lightbulb, Calendar, BookOpenText, Users, Trophy } from "lucide-react";
 import { TopCloud } from "@/components/animations/Clouds";
 
 const features = [
   {
     name: "Projetos de Impacto",
-    description: "Transformar ideias em soluções que geram impacto positivo.",
+    description: "Desenvolvimento de soluções reais em IA, tanto em colaboração com a Indústria e a academia quanto em iniciativas empreendedoras",
     icon: Lightbulb,
   },
   {
-    name: "Eventos",
-    description: "Conectar a comunidade de IA por meio de encontros e conferências.",
+    name: "Eventos e Conferências",
+    description: "Conexões, apresentações e discussões entre profissionais, acadêmicos e líderes do setor de IA",
     icon: Calendar,
   },
   {
-    name: "Cursos e Materiais Educacionais",
-    description: "Capacitar talentos emergentes com aprendizado de ponta.",
+    name: "Criação de conteúdo científico e educacional",
+    description: "Disseminação de conhecimento técnico, fomento à pesquisa e publicação de descobertas",
     icon: BookOpenText,
   },
   {
-    name: "Disseminação de Conhecimento e Divulgação Científica",
-    description: "Compartilhar descobertas, inovações e conhecimento científico.",
-    icon: Brain,
+    name: "Desenvolvimento de Talentos",
+    description: "Lapidação de jovens talentos, tanto em capacidades técnicas quanto em liderança",
+    icon: Trophy,
   },
   {
-    name: "Desenvolvimento de Talentos",
-    description: "Formar talentos em IA com habilidades técnicas e de liderança.",
-    icon: Trophy,
+    name: "Comunidade",
+    description: "Criação de um ambiente colaborativo, onde os principais personagens do ecossistema de Inteligência Artificial podem trocar conhecimento, se apoiar e crescer juntos",
+    icon: Users,
   },
 ];
 
@@ -36,15 +36,25 @@ export function About() {
       <div className="py-24 sm:py-32" id="fronts">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-primary">Nossa Missão:</h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-              Avançar a IA no Brasil, criando soluções reais, formando e conectando pessoas e disseminando conhecimento
+            <h2 className="text-base font-semibold leading-7 text-primary">Apresentação:</h2>
+            <p className="mt-6 text-justify leading-8 text-muted-foreground">
+              O RAIA (Rede de Avanço em Inteligência Artificial) é uma organização sem fins lucrativos
+              comprometida em transformar o Brasil em protagonista global no campo da Inteligência
+              Artificial (IA). Por meio de projetos técnicos de impacto real, eventos, educação e
+              desenvolvimento de talentos, o RAIA promove inovação tecnológica e forma líderes
+              preparados para enfrentar os desafios do futuro.
+            </p>
+            <p className="mt-6 text-justify leading-8 text-muted-foreground">
+              A IA é uma força revolucionária de transformação, capaz de gerar progresso social e
+              econômico. Nossa missão é reunir os melhores talentos emergentes e proporcionar um
+              ambiente onde possam crescer, colaborar e contribuir para soluções que impactem
+              positivamente o país e posicione o Brasil como um dos líderes mundiais na área.
             </p>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Ser o maior motor de desenvolvimento de IA do país e fazer do Brasil uma referência mundial no setor.
+              O RAIA atua em cinco pilares estratégicos:
             </p>
           </div>
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+          <div className="mx-auto mt-6 max-w-2xl sm:mt-8 lg:mt-10 lg:max-w-none">
             <dl className="grid max-w-xl grid-cols-1 gap-x-6 gap-y-14 lg:max-w-none lg:grid-cols-3">
               {features.map((feature) => (
                 <div key={feature.name} className="flex flex-col bg-primary-foreground p-4 rounded-2xl shadow-2xl">
