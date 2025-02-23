@@ -7,7 +7,7 @@ export function Fellowship() {
     <div className="relative isolate">
       <div className="py-8 sm:py-12" id="team">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
-          <div className="py-6 bg-card rounded-2xl shadow-2xl">
+          <div className="mt-6 mx-auto max-w-2xl p-4 bg-card rounded-2xl shadow-2xl">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-2xl font-semibold leading-7 text-primary">Junte-se à Nossa Comunidade</h2>
               <p className="mt-6 text-lg leading-8 text-muted-foreground">
