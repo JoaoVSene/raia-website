@@ -14,7 +14,7 @@ export function ProjectMedia({ socialMedias }: SocialMediaProps) {
     <div className="relative isolate">
       <div className="py-8 sm:py-12" id="team">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
-          <div className="pt-6 bg-card rounded-2xl shadow-2xl">
+          <div className="pt-6 px-6 bg-card rounded-2xl shadow-2xl">
             <div className="mx-auto max-w-2xl lg:text-center">
               <h2 className="text-2xl font-semibold leading-7 text-primary">Acompanhe e Explore Mais</h2>
               <p className="mt-6 text-lg leading-8 text-muted-foreground">
