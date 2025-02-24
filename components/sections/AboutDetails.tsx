@@ -16,7 +16,7 @@ export function AboutDetails() {
             </div>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
               <Link href="https://drive.google.com/file/d/1vp0rnE8dwEUKyFqcR7TFsJ008_4ZRPNZ/view" target="_blank">
-                <Button variant="outline" size="lg">Introdução ao Grupo</Button>
+                <Button size="lg">Introdução ao Grupo</Button>
               </Link>
             </div>
           </div>

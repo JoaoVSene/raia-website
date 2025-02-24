@@ -1,6 +1,6 @@
 export function TopCloud() {
   return (
-    <div className="animated-breathing absolute inset-x-0 -top-60 -z-10 transform-gpu blur-3xl overflow-hidden sm:-top-80">
+    <div className="absolute inset-x-0 -top-60 -z-10 blur-3xl overflow-hidden sm:-top-80">
       <div
         className="relative left-[calc(40%-11rem)] aspect-[1155/678] w-[36.125rem] rotate-[30deg] bg-secondary opacity-50 sm:left-[calc(40%-30rem)] sm:w-[72.1875rem]"
         style={{
@@ -14,7 +14,7 @@ export function TopCloud() {
 
 export function BottomCloud() {
   return (
-    <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+    <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
       <div
         className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-secondary opacity-50 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
         style={{
