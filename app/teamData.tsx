@@ -103,7 +103,7 @@ export const directors: MemberItem[] = [
     role: "Diretor de Projetos",
     image: LucasBrandaoProfile,
     description: "Estudante de Ciências de Computação na Universidade de São Paulo. Pesquisador de nível de graduação com foco em Ciência de Dados",
-    linkedin: "https://www.linkedin.com/in/letmarchezi/",
+    linkedin: "https://www.linkedin.com/in/lucas-de-souza-brandão-590b1228b/",
   },
 ];
 
