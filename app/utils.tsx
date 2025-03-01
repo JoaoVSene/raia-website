@@ -147,11 +147,11 @@ export const project2Images: ImageItem[] = [
 ];
 
 export const project2SocialMedia = [
-  // {
-  //   name: "GitHub",
-  //   link: "https://www.github.com/gruporaia",
-  //   icon: FaGithub,
-  // },
+  {
+    name: "GitHub",
+    link: "https://github.com/gruporaia/BEMU",
+    icon: FaGithub,
+  },
   {
     name: "Medium",
     link: "https://medium.com/@raia.diretoria/indo-al%C3%A9m-do-ingl%C3%AAs-ampliando-o-horizonte-de-avalia%C3%A7%C3%B5es-de-ias-multimodais-a5249af02f7a",

@@ -17,11 +17,15 @@ export type MembersProps = {
 import PedroGomesProfile from "@/app/images/team/directors/PedroAugustoRibeiro.jpeg";
 import MonteiroProfile from "@/app/images/team/directors/Monteiro.jpg";
 import LuisaProfile from "@/app/images/team/directors/Luisa.jpeg";
-import SampaioProfile from "@/app/images/team/directors/Sampaio.jpeg";
+//import SampaioProfile from "@/app/images/team/directors/Sampaio.jpeg";
 import AndreghettiProfile from "@/app/images/team/directors/Andreghetti.jpeg";
 import AlonsoProfile from "@/app/images/team/directors/Alonso.jpeg";
 import SeneProfile from "@/app/images/team/directors/Sene.jpeg";
 import PedroLucasProfile from "@/app/images/team/directors/PedroLucas.jpeg";
+import GabrielMerlinProfile from "@/app/images/team/bemu/GabrielMerlin.png";
+import CeciliaProfile from "@/app/images/team/chatDiarioOficial/Cecilia.jpg";
+import LeticiaMarcheziProfile from "@/app/images/team/bemu/LeticiaMarchezi.jpg";
+import LucasBrandaoProfile from "@/app/images/team/directors/LucasBrandao.jpeg";
 
 export const directors: MemberItem[] = [
   {
@@ -44,13 +48,6 @@ export const directors: MemberItem[] = [
     image: LuisaProfile,
     description: "Tem interesse nas áreas de ML, com ênfase em NLP e Visão. Aluna de Ciências de Computação da USP, já tendo passado pela U. de Edimburgo e Cohere For AI como pesquisadora",
     linkedin: "https://www.linkedin.com/in/lushimabucoro/",
-  },
-  {
-    name: "Gustavo Sampaio",
-    role: "Diretor de Projetos",
-    image: SampaioProfile,
-    description: "Ensinando máquinas a aprenderem",
-    linkedin: "https://www.linkedin.com/in/gussampaio/",
   },
   {
     name: "Gabriel Andreghetti",
@@ -80,6 +77,34 @@ export const directors: MemberItem[] = [
     description: "Aluno de Ciências de Computação da Universidade de São Paulo",
     linkedin: "https://www.linkedin.com/in/pedro-lucas-figueiredo-bahiense/",
   },
+  {
+    name: "Cecília Nunes Sedenho",
+    role: "Diretora de Projetos",
+    image: CeciliaProfile,
+    description: "Graduanda em Ciências de Computação pelo ICMC - USP e pesquisadora na área de arquitetura de dados. Possui interesse em área relacionadas a Engenharia de Dados e Machine Learning",
+    linkedin: "https://www.linkedin.com/in/cec%C3%ADlia-nunes-sedenho-305059255/",
+  },
+  {
+    name: "Gabriel Merlin",
+    role: "Diretor de Projetos",
+    image: GabrielMerlinProfile,
+    description: "Seus interesses se encaixam na área de ML/DL, especialmente envolvendo Séries Temporais",
+    linkedin: "https://www.linkedin.com/in/gabrielcmerlin/",
+  },
+  {
+    name: "Leticia Marchezi",
+    role: "Diretora de Projetos",
+    image: LeticiaMarcheziProfile,
+    description: "Estudante de Ciência da Computação na Universidade Federal de São Carlos. Já realizou uma pesquisa em PLN com a Fapesp e um estágio na U. de Sheffield",
+    linkedin: "https://www.linkedin.com/in/letmarchezi/",
+  },
+  {
+    name: "Lucas de Souza Brandão",
+    role: "Diretor de Projetos",
+    image: LucasBrandaoProfile,
+    description: "Estudante de Ciências de Computação na Universidade de São Paulo. Pesquisador de nível de graduação com foco em Ciência de Dados",
+    linkedin: "https://www.linkedin.com/in/letmarchezi/",
+  },
 ];
 
 // Chat Diario Oficial Team Profile Pictures
@@ -87,7 +112,6 @@ export const directors: MemberItem[] = [
 import AlvaroProfile from "@/app/images/team/chatDiarioOficial/Alvaro.jpg";
 import BernardoProfile from "@/app/images/team/chatDiarioOficial/Bernardo.png";
 import LauraProfile from "@/app/images/team/chatDiarioOficial/Laura.jpeg";
-import CeciliaProfile from "@/app/images/team/chatDiarioOficial/Cecilia.jpg";
 
 export const chatDiarioOficialTeam: MemberItem[] = [
   {
@@ -130,8 +154,6 @@ export const chatDiarioOficialTeam: MemberItem[] = [
 // BEMU Team Profile Pictures
 
 import AndreMitriProfile from "@/app/images/team/bemu/AndreMitri.jpg";
-import GabrielMerlinProfile from "@/app/images/team/bemu/GabrielMerlin.png";
-import LeticiaMarcheziProfile from "@/app/images/team/bemu/LeticiaMarchezi.jpg";
 import OtavioColettiProfile from "@/app/images/team/bemu/OtavioColetti.jpg";
 
 export const bemuTeam: MemberItem[] = [
@@ -171,3 +193,15 @@ export const bemuTeam: MemberItem[] = [
     linkedin: "https://www.linkedin.com/in/ot%C3%A1viocoletti-012/",
   },
 ];
+
+// Coleta Team Profile Pictures
+
+// export const bemuTeam: MemberItem[] = [
+//   {
+//     name: "Gustavo Sampaio",
+//     role: "Diretor de Projetos",
+//     image: SampaioProfile,
+//     description: "Ensinando máquinas a aprenderem",
+//     linkedin: "https://www.linkedin.com/in/gussampaio/",
+//   },
+// ];
