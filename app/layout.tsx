@@ -4,6 +4,8 @@ import { Inter } from 'next/font/google';
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
+import { Analytics } from "@vercel/analytics/react"
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -28,6 +30,7 @@ export default function RootLayout({
           {/* <div className="grow bg-primary-foreground bg-[radial-gradient(#e5e7eb_2px,transparent_1px)] [background-size:16px_16px]"> */}
             <Navbar />
             {children}
+            <Analytics />
           </div>
           <Footer />
         </div>
