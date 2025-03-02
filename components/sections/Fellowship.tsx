@@ -38,7 +38,7 @@ export function Fellowship() {
               </p>
             </div>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
-              <Link href="/contact" target="_blank">
+              <Link href="/contact">
                 <Button size="lg">Contatos</Button>
               </Link>
               <Link href="https://drive.google.com/file/d/1vp0rnE8dwEUKyFqcR7TFsJ008_4ZRPNZ/view" target="_blank">
