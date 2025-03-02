@@ -32,21 +32,21 @@ export function Fellowship() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mb-6 mx-auto max-w-2xl p-4 bg-card rounded-2xl shadow-2xl">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-2xl font-semibold leading-7 text-primary">Junte-se à Nossa Comunidade</h2>
+              <h2 className="text-2xl font-semibold leading-7 text-primary">Obrigado por participar!</h2>
               <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                Quer entrar no nosso grupo e colocar a mão na massa?<br/>Acesse os links abaixo!
+                Infelizmente, o nosso processo seletivo fechou.<br/>Mas fique atento as atualizações nas nossas redes sociais!
               </p>
             </div>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
-              <Link href={pselLink} target="_blank">
-                <Button size="lg">Junte-se a Nós</Button>
+              <Link href="/contact" target="_blank">
+                <Button size="lg">Contatos</Button>
               </Link>
-              <Link href="https://drive.google.com/file/d/1HR-1w22APrQkDQqHuPF2IJqhqblUfsYe/view" target="_blank">
-                <Button variant="outline" size="lg">Edital do PSEL</Button>
+              <Link href="https://drive.google.com/file/d/1vp0rnE8dwEUKyFqcR7TFsJ008_4ZRPNZ/view" target="_blank">
+                <Button size="lg">Introdução ao Grupo</Button>
               </Link>
             </div>
           </div>
-          <div className="mt-12 mx-auto max-w-2xl lg:text-center">
+          {/* <div className="mt-12 mx-auto max-w-2xl lg:text-center">
             <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
               RAIA Fellowship
             </p>
@@ -56,19 +56,19 @@ export function Fellowship() {
               papel do Brasil na era da Inteligência Artificial.
             </p>
           </div>
-            {objectives.map((objective) => (
-              <div key={objective.title} className="mt-6 mx-auto max-w-2xl p-4 bg-card rounded-2xl shadow-2xl">
-                <p className="mt-2 text-2xl font-bold tracking-tight">
-                  {objective.title}
-                </p>
-                <p className="mt-2 text-justify leading-8 text-muted-foreground">
-                  {objective.first}
-                </p>
-                <p className="mt-2 text-justify leading-8 text-muted-foreground">
-                  {objective.second}
-                </p>
-              </div>
-            ))}
+          {objectives.map((objective) => (
+            <div key={objective.title} className="mt-6 mx-auto max-w-2xl p-4 bg-card rounded-2xl shadow-2xl">
+              <p className="mt-2 text-2xl font-bold tracking-tight">
+                {objective.title}
+              </p>
+              <p className="mt-2 text-justify leading-8 text-muted-foreground">
+                {objective.first}
+              </p>
+              <p className="mt-2 text-justify leading-8 text-muted-foreground">
+                {objective.second}
+              </p>
+            </div>
+          ))} */}
         </div>
       </div>
     </div>

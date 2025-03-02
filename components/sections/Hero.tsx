@@ -35,11 +35,11 @@ export function Hero() {
               lucrativos com um propósito ambicioso: ajudar a tornar o Brasil um protagonista 
               no campo da Inteligência Artificial (IA)
             </p>
-            <Link href={pselLink} target="_blank">
+            {/* <Link href={pselLink} target="_blank">
               <div className="grid min-h-[140px] w-full place-items-center rounded-lg p-6 overflow-visible">
                 <CarouselDefault images={groupImages} />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

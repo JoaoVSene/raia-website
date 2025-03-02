@@ -20,13 +20,13 @@ export function Contact() {
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
               Tem dúvidas sobre nossas soluções de IA? Gostaríamos de ouvir de você e discutir como podemos ajudar a transformar sua ideia em realidade!
             </p>
-            <div className="my-6 lg:text-center">
+            {/* <div className="my-6 lg:text-center">
               <Link href={pselLink} target="_blank">
                 <Button>
                   Junte-se a Nós
                 </Button>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div className="mt-12 mx-auto max-w-2xl text-center">

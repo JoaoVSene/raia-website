@@ -76,11 +76,11 @@ export function Navbar() {
           </div>
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href={pselLink} target="_blank">
+            {/* <Link href={pselLink} target="_blank">
               <Button>
                 Junte-se a Nós
               </Button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
